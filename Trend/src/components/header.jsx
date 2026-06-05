@@ -7,7 +7,7 @@ class Header extends React.Component{
         return(
             <>
             
-            <div className="flex md:flex-1 flex-wrap justify-center md:mt-50 mt-20 mb-10">
+            <div className="flex md:flex-1 flex-wrap justify-center md:mt-40 mt-10 mb-10">
                <h1 className="text-white font-sans font-semibold text-5xl capitalize text-center">
                  top feature artists
                </h1>
