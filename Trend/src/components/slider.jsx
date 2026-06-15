@@ -89,7 +89,7 @@ class Slider extends React.Component {
     render() {
         return (
             <>
-                <div className="md:mt-20 w-full max-w-md md:max-w-[1192px] mx-auto px-4 overflow-hidden">
+                <div className="md:mt-28 w-full max-w-md md:max-w-[1192px] mx-auto px-4 overflow-hidden">
 
                     <div
                         ref={this.scrollContainerRef}

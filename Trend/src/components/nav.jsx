@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom"; 
-import logo from "../assets/images/TrendLogo.png"
+// import logo from "../assets/images/TrendLogo.png"
 
 class Nav extends React.Component {
   render() {
@@ -12,11 +12,11 @@ class Nav extends React.Component {
             {/* Logo Link wrapper */}
             <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
               {/* Pointing directly to the public folder root, sized perfectly */}
-              <img 
+              {/* <img 
                 src={logo} 
                 alt="Trend Logo" 
                 className="h-72 w-auto object-contain" 
-              />
+              /> */}
             </Link>
             
             <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
